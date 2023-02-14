@@ -1,0 +1,35 @@
+.site-foot {
+  padding-block: var(--space-4);
+}
+
+.site-foot .site-foot__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-7);
+}
+
+.site-foot .site-foot__inner .site-foot__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: var(--space-7);
+}
+
+.site-foot .site-foot__inner .site-foot__navigation ul {
+  --flow-space: var(--space-3);
+  gap: var(--space-1);
+}
+
+.site-foot .site-foot__inner .site-foot__navigation ul > li > * {
+  margin-block: var(--space-1);
+}
+
+.site-foot__form h3 {
+  margin-block-end: var(--space-1);
+}
+
+.site-foot__form form label {
+  display: block;
+}
