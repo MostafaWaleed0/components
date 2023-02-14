@@ -10,8 +10,9 @@
   --space-6: 40px;
   --space-7: 45px;
   --space-8: 80px;
-  --clr-primary: #1e74c4;
+  --clr-primary: rgb(244, 0, 118);
   --clr-white: #fff;
+  --clr-black: #000;
 }
 
 *,
@@ -36,7 +37,7 @@ dl,
 dd,
 label {
   margin: 0;
-  color: var(--clr-primary);
+  color: var(--clr-black);
 }
 
 ul[role="list"],
@@ -51,9 +52,13 @@ ol[role="list"] {
   margin-inline: auto;
 }
 
+svg {
+  color: var(--clr-primary);
+}
+
 a {
   display: inline-block;
-  color: var(--clr-primary);
+  color: var(--clr-black);
   text-decoration: 0;
 }
 

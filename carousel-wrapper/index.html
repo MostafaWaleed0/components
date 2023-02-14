@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../global.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Carousel wrapper -->
+      <div class="slider" aria-label="carousel">
+        <div role="group" aria-label="slide 1">item 1</div>
+        <div role="group" aria-label="slide 2">item 2</div>
+        <div role="group" aria-label="slide 3">item 3</div>
+        <div role="group" aria-label="slide 4">item 4</div>
+        <div role="group" aria-label="slide 5">item 5</div>
+      </div>
+      <!-- Slider indicators -->
+      <ul class="indicators" role="list">
+        <li>
+          <button type="button" aria-current="true" class="active"></button>
+        </li>
+        <li>
+          <button type="button" aria-current="false"></button>
+        </li>
+        <li>
+          <button type="button" aria-current="false"></button>
+        </li>
+        <li>
+          <button type="button" aria-current="false"></button>
+        </li>
+        <li>
+          <button type="button" aria-current="false"></button>
+        </li>
+      </ul>
+    </div>
+  </body>
+  <script type="module" src="./script.js" defer></script>
+</html>
