@@ -64,6 +64,7 @@ a {
 
 button {
   display: inline-block;
+  border: 0;
 }
 
 h1,
